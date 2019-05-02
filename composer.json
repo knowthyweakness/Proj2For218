@@ -1,0 +1,23 @@
+{
+    "name": "thoss/class",
+    "description": "This program will import a csv file to a SQL database",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^8.1"
+    },
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "knowthyweakness\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tanvir Hossain",
+            "email": "th223@njit.edu"
+        }
+    ],
+    "require": {
+        "ext-pdo": "*"
+    }
+}
