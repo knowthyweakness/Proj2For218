@@ -10,6 +10,11 @@ require_once '../vendor/autoload.php';
     <title>CSV Import</title>
 </head>
 <body>
+    <form action="uploadHandle.php" method="post">
+    Select file to upload:
+    <input type="file" name="fileToUpload" id="fileToUpload" accept=".csv">
+    <!--<input type="submit" value="Upload CSV" name="submit">-->
+    <input type="submit">
 <?php
     use knowthyweakness\db\SQLiteConnection;
     //$obj = new bootstrap('../data/SampleData.csv');
